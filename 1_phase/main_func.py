@@ -5,7 +5,6 @@ import pickle
 
 
 SIZE = 256
-img_path = 'data/malaria/190813120342.png'
 svm_model = 'files/finalized_svm_model.sav'
 
 svm_model = pickle.load(open(svm_model, 'rb'))
@@ -25,6 +24,3 @@ def classify(img_path):
 
     prediction = svm_model.predict(feature)
     return prediction[0]
-
-pred = classify(img_path)
-print(pred)
