@@ -11,3 +11,6 @@ After cloning the project to your desire folder, there are things that need to b
 + Choose your desire method to test.
 + Open the folder and download the "files" folder.
 + Copy the "files" folder to the project folder that cloned in previous section.
+## Run the project
++ In each method folder there will be a main_UI file.
++ Run the project by input this command in the terminal: **python main_UI.py**
