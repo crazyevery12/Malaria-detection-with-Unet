@@ -17,7 +17,7 @@ After cloning the project to your desire folder, there are things that need to b
 # Reproducing experiment
 In the main folder there is a "model" folder, this contain all the code that are use to conduct the experiment.
 To reproduce the experiment:
-+ Install required package with the following command: **pip install -r requirements.txt**.
++ Install required package with the following command: **pip install -r requirements_exp.txt**.
 + Navigate to [drive](https://drive.google.com/drive/folders/10Uipol_TdnSyDhDh4aGbCp--A0TgEdzG).
 + Choose your desire method.
 + Open the folder and download the "data" folder. This is the data used to train the model.
